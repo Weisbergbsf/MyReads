@@ -12,7 +12,7 @@ class BooksApp extends Component {
   };
 
   componentDidMount() {
-    this.getBooksShelf();
+    this.getBooksShelf()
   }
 
   getBooksShelf() {
@@ -33,12 +33,10 @@ class BooksApp extends Component {
       BooksAPI.search(query).then(response => {
         if(response && response.length) {
         const res = response.map(obj => this.state.books.find(o => o.id === obj.id) || obj);
-        console.log("res => ", res);
 
         this.setState({ booksSearched: res });
         
         if (res.error) {
-          console.log("Error row 55");
           this.setState({ booksSearched: [] });
         }
       }
