@@ -1,6 +1,5 @@
 ## My Reads
 
-
 MyReads is a project made in React that allows to organize the books in shelves like: Currently Reading, Want to Read and Read. This is a project from Udacity’s Nanodegree course.
 
 ## Folder Structure
@@ -25,10 +24,11 @@ myreads/
     App.css
     App.js
     App.test.js
+    BooksAPI.js
     index.css
     index.js
-    BooksAPI.js
-    package.json
+  package.json
+  README.md
 
 ```
 
@@ -56,5 +56,5 @@ You can refer [to the React documentation](https://reactjs.org/docs/react-dom.ht
 
 ### Important
 
-The backend API uses a fixed set of cached search results and is limited to a particular set of search terms, which can be found in [SEARCH_TERMS.md.](https://github.com/udacity/reactnd-project-myreads-starter/blob/master/SEARCH_TERMS.md) That list of terms are the only terms that will work with the backend, so don't be surprised if your searches for Basket Weaving or Bubble Wrap don't come back with any results.
+The backend API uses a fixed set of cached search results and it is limited to a particular set of search terms, which can be found in [SEARCH_TERMS.md.](https://github.com/udacity/reactnd-project-myreads-starter/blob/master/SEARCH_TERMS.md) That list of terms are the only terms that will work with the backend, so don't be surprised if your searches for Basket Weaving or Bubble Wrap don't come back with any results.
 
